@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Data Covid 19</title>
+</head>
+<body>
+    <h1>DATA COVID 19 INDONESIA</h1>
+            
+    Positif : <span id="data-positif"></span> <br>
+    Sembuh : <span id="data-sembuh"></span> <br>
+    Meninggal : <span id="data-meninggal"></span><br>
+    
+    <br><br>
+    <h1>Data Covid-19 Provinsi</h1>
+    <table border="1" id="table-provinsi">
+        
+    </table>
+
+    <script src="script.js"></script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                getDataIndonesia();
+                getDataProvinsi();
+            })
+    </script>
+</body>
+</html>
